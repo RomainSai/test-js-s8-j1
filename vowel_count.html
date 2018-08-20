@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World!</title>
+</head>
+
+<body>
+
+    <script>
+    function findVowel(arr) {
+      var vowel_list = "aeiouAEIOU";
+      var vcount = 0
+
+      for (var x = 0; x < arr.length; x++) {
+      if (vowel_list.indexOf(arr[x]) !== -1){
+        vcount +=1
+      }
+    }
+    return vcount;
+    }
+
+    console.log(findVowel("je suis fatigue"));
+    </script>
+
+</body>
+</html>

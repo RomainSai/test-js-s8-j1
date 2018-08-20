@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World!</title>
+</head>
+
+<body>
+
+    <script>
+    function myMax(arr) {
+      var max = arr[0];
+      for (var i = 0; i < arr.length; i++) {
+      if (max < arr[i]) {
+        max = arr[i];
+      }
+    }
+    return max;
+    }
+
+    console.log(myMax([20, 150, 30, 90, 10, 70]));
+    </script>
+
+</body>
+</html>
